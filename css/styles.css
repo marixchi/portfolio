@@ -1,5 +1,19 @@
+/* 
+CSS CHEATSHEET - https://www.w3schools.com/css/default.asp
+
+SELECTOR {
+    PROPERTY : VALUE;
+    PROPERTY : VALUE;
+    PROPERTY : VALUE;
+}
+
+*/
+
+
+
+
 body {
-    background-color: teal;
+    background-color: rgb(161, 202, 239);
 }
 
 p {
@@ -8,4 +22,23 @@ p {
 
 h1 {
     font-family:Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 24%
+    
+}
+
+a:link {
+  color: rgb(10, 46, 107);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(66, 109, 195);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(239, 239, 239);
 }
